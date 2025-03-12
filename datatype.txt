@@ -1,0 +1,43 @@
+i - integer
+b - boolean
+u - unsigned integer
+f - float
+c - complex float
+m - timedelta
+M - datetime
+O - object
+S - string
+U - unicode string
+
+Reshaping means changing the shape of an array.
+V - fixed chunk of memory for other type ( void )
+
+COPY - The copy SHOULD NOT be affected by the changes made to the original array.
+VIEW - The view SHOULD be affected by the changes made to the original array.
+
+Shap - NumPy arrays have an attribute called shape that returns a tuple with each index having the number of corresponding elements.
+
+ndmin - ndmin ensures a minimum number of dimensions and The shape of the array changes based on the ndmin value.
+
+Reshaping - changing the shape of an array.
+
+Understanding the Shape (2, 3, 2)
+2 → Number of blocks (Depth)
+3 → Number of rows per block
+2 → Number of columns per row
+
+reshape(2, 2, -1) allows NumPy to automatically compute the missing dimension.
+
+Flattening array - converting a multidimensional array into a 1D array.(We can use reshape(-1) to do this.)
+
+Sorting array - means putting elements in an ordered sequence.(using sort() )
+
+ Filtering Arrays - If the value at an index is True that element is contained in the filtered array, 
+                     if the value at that index is False that element is excluded from the filtered array.
+
+Searching Arrays:-
+You can search an array for a certain value, and return the indexes that get a match.(use the where() method.)
+
+
+searchsorted() which performs a binary search in the array, 
+and returns the index where the specified value would be inserted to maintain the search order.
