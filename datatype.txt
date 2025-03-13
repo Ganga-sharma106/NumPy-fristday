@@ -41,3 +41,32 @@ You can search an array for a certain value, and return the indexes that get a m
 
 searchsorted() which performs a binary search in the array, 
 and returns the index where the specified value would be inserted to maintain the search order.
+
+np.nditer efficiently iterates over NumPy arrays.
+The buffered flag allows temporary data type conversion.
+The op_dtypes=['S'] converts integer elements into byte strings.
+
+arr[:, ::2]
+: → Selects all rows.
+::2 → Selects every second column (i.e., columns at index 0 and 2)
+
+arr[:, ::1]
+: → Selects all rows.
+::1 → Selects every column with step 1 (which means it does not skip any columns).
+Since ::1 keeps all columns unchanged, this slicing does nothing and returns the same array.
+
+np.ndenumerate() - 
+It enumerates over a NumPy array and returns both:
+The index (as a tuple).
+The value at that index.
+It works for both 1D and multi-dimensional arrays.
+
+stacking is done along a new axis.
+axis=1 means concatenation is done horizontally (column-wise).
+axis=0 (Row-wise Stacking)
+
+hstack() to stack along rows.
+
+vstack()  to stack along columns.
+
+dstack() to stack along height, which is the same as depth.
