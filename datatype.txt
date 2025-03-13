@@ -70,3 +70,36 @@ hstack() to stack along rows.
 vstack()  to stack along columns.
 
 dstack() to stack along height, which is the same as depth.
+
+randint - Built in funtion that print the random integer value.
+
+rand - print float random value bw 0 and 1.
+
+The choice() method allows you to generate a random value based on an array of values.
+The choice() method takes an array as a parameter and randomly returns one of the values.
+
+Data Distribution is a list of all possible values, and how often each value occurs.
+
+The shuffle() method makes changes to the original array.
+
+The permutation() method returns a re-arranged array (and leaves the original array un-changed).
+
+Distplot stands for distribution plot, it takes as input an array and plots a curve corresponding to the distribution of points in the array.
+
+Seabor lib : - 
+
+matplotlib.pyplot → Used for plotting graphs.
+seaborn → A statistical data visualization library built on top of Matplotlib.
+sns.distplot() (deprecated in newer versions of Seaborn) is used to plot a distribution (histogram) of data.
+The input is [0, 1, 2, 3, 4, 5], a simple list of numbers.
+This function creates a histogram and overlays a Kernel Density Estimate (KDE) curve by default.
+
+Breakdown of the Plot Components:-
+Histogram: A bar chart representing the frequency of values in the dataset.
+Kernel Density Estimate (KDE): A smooth curve that estimates the probability density of the dataset.
+plt.show() renders the generated plot.
+
+normal distribution :
+Mean (loc=1) → The center of the distribution.
+Standard Deviation (scale=2) → Controls the spread of the values.
+Size (size=(2, 3)) → Defines the shape of the output array.
