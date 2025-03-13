@@ -103,3 +103,11 @@ normal distribution :
 Mean (loc=1) → The center of the distribution.
 Standard Deviation (scale=2) → Controls the spread of the values.
 Size (size=(2, 3)) → Defines the shape of the output array.
+
+frompyfunc() method takes the following arguments:
+
+function - the name of the function.
+inputs - the number of input arguments (arrays).
+outputs - the number of output arrays.
+
+divmod() function return both the quotient and the mod.
